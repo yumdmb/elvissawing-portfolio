@@ -6,10 +6,9 @@ export function ContactSection() {
   return (
     <section id="contact" className="py-12 md:py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 md:mb-8 animate-fade-in">Let's Connect</h2>
+        <div className="max-w-2xl mx-auto text-center">          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 md:mb-8 animate-fade-in">Let&apos;s Connect</h2>
           <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8 animate-fade-in animate-delay-100">
-            I'm always interested in discussing new opportunities, collaborations, or just connecting with fellow tech
+            I&apos;m always interested in discussing new opportunities, collaborations, or just connecting with fellow tech
             enthusiasts.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 animate-fade-in animate-delay-200">

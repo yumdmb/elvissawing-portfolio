@@ -33,7 +33,7 @@ export function AboutSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-sm md:text-base">
-                  Pursuing a Bachelor's degree in Computer Science (Software Engineering) at Universiti Malaya,
+                  Pursuing a Bachelor&apos;s degree in Computer Science (Software Engineering) at Universiti Malaya,
                   with a strong foundation in programming, cloud computing, and artificial intelligence.
                 </p>
               </CardContent>
