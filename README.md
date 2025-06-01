@@ -136,11 +136,3 @@ This project is open source and available under the [MIT License](LICENSE).
 **Elvis Sawing Anak Muran**
 - LinkedIn: [elvis-sawing](https://www.linkedin.com/in/elvis-sawing)
 - GitHub: [yumdmb](https://github.com/yumdmb)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yumdmb/elvissawing-portfolio/issues).
-
-## ⭐ Show Your Support
-
-Give a ⭐️ if this project helped you!
