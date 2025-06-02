@@ -1,6 +1,7 @@
 import { ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
 import { featuredWork } from "@/data/portfolio"
 
 export function FeaturedWorkSection() {
@@ -20,9 +21,17 @@ export function FeaturedWorkSection() {
                 <CardHeader>
                   <CardTitle className="text-lg">{work.title}</CardTitle>
                   <CardDescription>{work.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
+                </CardHeader>                <CardContent>
                   <p className="text-sm text-gray-600 mb-4">{work.content}</p>
+                  {work.badges && work.badges.length > 0 && (
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {work.badges.map((badge, badgeIndex) => (
+                        <Badge key={badgeIndex} variant="secondary">
+                          {badge}
+                        </Badge>
+                      ))}
+                    </div>
+                  )}
                   <Button variant="outline" size="sm" asChild className="w-full hover-lift">
                     <a href={work.link} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="w-4 h-4 mr-2" />

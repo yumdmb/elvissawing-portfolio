@@ -4,6 +4,7 @@ export interface FeaturedWork {
   content: string
   link: string
   linkText: string
+  badges?: string[]
 }
 
 export interface Certification {

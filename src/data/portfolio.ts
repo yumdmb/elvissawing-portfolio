@@ -2,11 +2,20 @@ import { FeaturedWork, Certification, Experience, Education, NavItem } from "@/t
 
 export const featuredWork: FeaturedWork[] = [
   {
+    title: "Stitch-Mart",
+    description: "Full-Stack e-Commerce Website",
+    content: "A collaborative e-commerce platform for embroidery services built as part of a web development course. Features product listings, user authentication, cart management, and order processing.",
+    link: "https://github.com/yumdmb/stitch-mart",
+    linkText: "View on GitHub",
+    badges: ["React", "MongoDB", "Express.js", "Node.js", "Create React App"],
+  },
+  {
     title: "Newswav Creator",
     description: "Tech Writing & Insights",
     content: "Writing articles on the latest tech trends and innovations, sharing insights with the tech community.",
     link: "https://newswav.com/publisher/elvis-sawing-2291",
     linkText: "View Articles",
+    badges: ["Tech Writing", "Insights"],
   },
   {
     title: "Google Cloud Skills",
@@ -14,6 +23,7 @@ export const featuredWork: FeaturedWork[] = [
     content: "Actively learning and practicing Google Cloud technologies through hands-on labs and skill challenges.",
     link: "https://www.cloudskillsboost.google/public_profiles/3d395864-7e84-44ef-ae88-e518887c9fcd",
     linkText: "View Profile",
+    badges: ["Cloud Computing", "Google Cloud Platform"],
   },
 ]
 
