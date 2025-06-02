@@ -107,13 +107,14 @@ export const education: Education[] = [
   {
     degree: "Bachelor's Degree, Computer Science (Software Engineering)",
     institution: "Universiti Malaya",
+    grade: "current 3.77 CGPA",
     period: "2022 - 2026",
-    description: "Currently pursuing a comprehensive degree in Software Engineering, focusing on modern software development practices, algorithms, and system design."
+    description: "Currently pursuing a comprehensive degree in Software Engineering, focusing on architecture, modelling, requirements, and testing."
   },
   {
     degree: "Pre-University/Foundation, Physical Sciences",
     institution: "Universiti Malaya",
-    grade: "3.75 CGPA",
+    grade: "3.81 CGPA",
     period: "Aug 2021 - May 2022",
     description: "Foundation program in Physical Sciences with strong performance in mathematics and physics.",
     activities: "Committee of PASUM Physics Club",
