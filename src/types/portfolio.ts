@@ -25,6 +25,7 @@ export interface Experience {
   responsibilities?: string[]
   achievements?: string[]
   badges: string[]
+  logo?: string
 }
 
 export interface Education {

@@ -68,6 +68,7 @@ export const experiences: Experience[] = [
     company: "Sarawak Energy",
     period: "Jul 2024 - Jan 2025",
     location: "Kuching, Sarawak, Malaysia",
+    logo: "/sarawak-energy-logo.svg",
     responsibilities: [
       "Enhanced existing manual AARG system by proposing and designing an initial app using OutSystems",
       "Proposed matrix analysis to automate the prioritization of requests",
@@ -82,6 +83,7 @@ export const experiences: Experience[] = [
     company: "KitaHack 2024 - GDSC Malaysia",
     period: "Dec 2023 - Jan 2024",
     location: "",
+    logo: "/gdsc-logo.svg",
     responsibilities: [
       "Managed logistics planning and execution of KitaHack 2024",
       "Coordinated event venues, equipment and supplies",
@@ -95,6 +97,7 @@ export const experiences: Experience[] = [
     company: "PMSUM 2022/2023",
     period: "Nov 2022 - Jul 2023",
     location: "",
+    logo: "/pmsum-logo.png",
     description: "Served as Executive Committee member focusing on welfare and unity initiatives for Sarawak students at Universiti Malaya.",
     badges: ["Student Leadership", "Community Service", "Welfare Management"]
   }

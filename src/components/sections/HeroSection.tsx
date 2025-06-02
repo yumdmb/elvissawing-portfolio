@@ -18,7 +18,7 @@ export function HeroSection() {
                         <span className="text-sm md:text-base">{SITE_CONFIG.author.location}</span>
                     </div>
                     <p className="text-base md:text-lg text-gray-700 mb-6 md:mb-8 leading-relaxed animate-fade-in animate-delay-300">
-                        Exploring full stack web development, with strong interests in AI, DevOps, and cloud technologies, particularly AWS. Currently working on a Sign Language Recognition System using deep learning techniques as my final year project.
+                        Exploring full stack web development with strong interests in AI, DevOps, and cloud technologies, particularly AWS. Currently working on a Sign Language Recognition System using deep learning techniques as my final year project.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in animate-delay-400">
                         <Button asChild className="w-full sm:w-auto hover-lift">
