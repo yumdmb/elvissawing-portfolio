@@ -7,7 +7,7 @@ export const featuredWork: FeaturedWork[] = [
     content: "A collaborative e-commerce platform for embroidery services built as part of a web development course. Features product listings, user authentication, cart management, and order processing.",
     link: "https://github.com/yumdmb/stitch-mart",
     linkText: "View on GitHub",
-    badges: ["React", "MongoDB", "Express.js", "Node.js", "Create React App"],
+    badges: ["React", "MongoDB", "Express.js", "Node.js"],
   },
   {
     title: "Newswav Creator",
