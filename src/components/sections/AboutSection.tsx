@@ -10,9 +10,8 @@ export function AboutSection() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center animate-fade-in">
             About Me
-          </h2>          <div className="text-center mb-8 animate-slide-up">
-            <p className="text-gray-700 mb-4">
-              Besides coding, here's what I enjoy:
+          </h2>          <div className="text-center mb-8 animate-slide-up">            <p className="text-gray-700 mb-4">
+              Besides coding, here&apos;s what I enjoy:
             </p>
             <div className="flex flex-wrap justify-center gap-3 max-w-sm mx-auto">
               <div className="flex items-center gap-2 bg-gray-50 py-2 px-3 rounded-md">

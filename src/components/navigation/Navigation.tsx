@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { navItems } from "@/data/portfolio"
 import { SITE_CONFIG } from "@/config/site"
+import Image from "next/image"
 
 interface NavigationProps {
   activeSection: string
@@ -23,7 +24,7 @@ export function Navigation({ activeSection, onNavClick }: NavigationProps) {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm border-b shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">          <div className="flex items-center gap-3">
-            <img src="es-logo.png" alt="Logo" className="w-8 h-8 md:w-10 md:h-10" />
+            <Image src="/es-logo.png" alt="Logo" width={40} height={40} className="w-8 h-8 md:w-10 md:h-10" />
             <h1 className="text-xl font-bold text-gray-900">{SITE_CONFIG.name.split(' ')[0]} {SITE_CONFIG.name.split(' ')[1]}</h1>
           </div>
 
