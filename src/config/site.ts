@@ -7,7 +7,7 @@ export const SITE_CONFIG = {
     name: "Elvis Sawing Anak Muran",
     linkedin: "https://www.linkedin.com/in/elvis-sawing",
     github: "https://github.com/yumdmb",
-    location: "Federal Territory of Kuala Lumpur, Malaysia"
+    location: "Sarawak, Malaysia"
   }
 } as const
 

@@ -2,11 +2,20 @@ import { FeaturedWork, Certification, Experience, Education, NavItem } from "@/t
 
 export const featuredWork: FeaturedWork[] = [
   {
+    title: "Stitch-Mart",
+    description: "Full-Stack e-Commerce Website",
+    content: "A collaborative e-commerce platform for embroidery services built as part of a web development course. Features product listings, user authentication, cart management, and order processing.",
+    link: "https://github.com/yumdmb/stitch-mart",
+    linkText: "View on GitHub",
+    badges: ["React", "MongoDB", "Express.js", "Node.js"],
+  },
+  {
     title: "Newswav Creator",
     description: "Tech Writing & Insights",
     content: "Writing articles on the latest tech trends and innovations, sharing insights with the tech community.",
     link: "https://newswav.com/publisher/elvis-sawing-2291",
     linkText: "View Articles",
+    badges: ["Tech Writing", "Insights"],
   },
   {
     title: "Google Cloud Skills",
@@ -14,6 +23,7 @@ export const featuredWork: FeaturedWork[] = [
     content: "Actively learning and practicing Google Cloud technologies through hands-on labs and skill challenges.",
     link: "https://www.cloudskillsboost.google/public_profiles/3d395864-7e84-44ef-ae88-e518887c9fcd",
     linkText: "View Profile",
+    badges: ["Cloud Computing", "Google Cloud Platform"],
   },
 ]
 
@@ -58,6 +68,7 @@ export const experiences: Experience[] = [
     company: "Sarawak Energy",
     period: "Jul 2024 - Jan 2025",
     location: "Kuching, Sarawak, Malaysia",
+    logo: "/sarawak-energy-logo.svg",
     responsibilities: [
       "Enhanced existing manual AARG system by proposing and designing an initial app using OutSystems",
       "Proposed matrix analysis to automate the prioritization of requests",
@@ -72,6 +83,7 @@ export const experiences: Experience[] = [
     company: "KitaHack 2024 - GDSC Malaysia",
     period: "Dec 2023 - Jan 2024",
     location: "",
+    logo: "/gdsc-logo.svg",
     responsibilities: [
       "Managed logistics planning and execution of KitaHack 2024",
       "Coordinated event venues, equipment and supplies",
@@ -85,6 +97,7 @@ export const experiences: Experience[] = [
     company: "PMSUM 2022/2023",
     period: "Nov 2022 - Jul 2023",
     location: "",
+    logo: "/pmsum-logo.png",
     description: "Served as Executive Committee member focusing on welfare and unity initiatives for Sarawak students at Universiti Malaya.",
     badges: ["Student Leadership", "Community Service", "Welfare Management"]
   }
@@ -100,6 +113,7 @@ export const education: Education[] = [
   {
     degree: "Pre-University/Foundation, Physical Sciences",
     institution: "Universiti Malaya",
+    grade: "3.75 CGPA",
     period: "Aug 2021 - May 2022",
     description: "Foundation program in Physical Sciences with strong performance in mathematics and physics.",
     activities: "Committee of PASUM Physics Club",

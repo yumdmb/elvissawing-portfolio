@@ -4,6 +4,7 @@ export interface FeaturedWork {
   content: string
   link: string
   linkText: string
+  badges?: string[]
 }
 
 export interface Certification {
@@ -24,6 +25,7 @@ export interface Experience {
   responsibilities?: string[]
   achievements?: string[]
   badges: string[]
+  logo?: string
 }
 
 export interface Education {
