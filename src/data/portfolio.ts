@@ -110,6 +110,7 @@ export const education: Education[] = [
   {
     degree: "Pre-University/Foundation, Physical Sciences",
     institution: "Universiti Malaya",
+    grade: "3.75 CGPA",
     period: "Aug 2021 - May 2022",
     description: "Foundation program in Physical Sciences with strong performance in mathematics and physics.",
     activities: "Committee of PASUM Physics Club",
